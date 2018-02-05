@@ -39,9 +39,4 @@ public class DateTimeUtil {
          return dateTime.toString(STANDARD_FORMAT);
      }
 
-    public static void main(String[] args) {
-        System.out.println(DateTimeUtil.dateToStr(new Date()));
-        System.out.println(DateTimeUtil.strToDate("2017-12-07 11:22:33"));
-    }
-
 }
